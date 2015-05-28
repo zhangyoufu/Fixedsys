@@ -1,3 +1,44 @@
+# Summary
+
+	dewinfont.py: .fon (NE) => .fd (Plaintext)
+	show.py:      .fd => .png
+
+# Character Map (Partial)
+
+|   vgafix   |   8514fix  |
+|------------|------------|
+| ![vgafix]  | ![8514fix] |
+
+|   vgafixe  |   vgafixg  |   vgafixr  |   vgafixt  |
+|------------|------------|------------|------------|
+| ![vgafixe] | ![vgafixg] | ![vgafixr] | ![vgafixt] |
+
+|   cvgafix  |   hvgafix  |   jvgafix  |   svgafix  |
+|------------|------------|------------|------------|
+| ![cvgafix] | ![hvgafix] | ![jvgafix] | ![svgafix] |
+
+|   vgaf874  |   vgaf1255  |   vgaf1256  |   vgaf1257  |
+|------------|-------------|-------------|-------------|
+| ![vgaf874] | ![vgaf1255] | ![vgaf1256] | ![vgaf1257] |
+
+Q: What happened to cp1255 and cp1256 ?
+
+[8514fix]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/8514/8514fix.png
+[vgafix]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/vgafix.png
+[vgafixe]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/vgafixe.png
+[vgafixg]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/vgafixg.png
+[vgafixr]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/vgafixr.png
+[vgafixt]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/vgafixt.png
+[cvgafix]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/cvgafix.png
+[hvgafix]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/hvgafix.png
+[jvgafix]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/jvgafix.png
+[svgafix]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/svgafix.png
+[vgaf874]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/vgaf874.png
+[vgaf1255]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/vgaf1255.png
+[vgaf1256]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/vgaf1256.png
+[vgaf1257]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/vgaf1257.png
+
+
 # Naming Convention
 
 Suffix
@@ -16,9 +57,63 @@ Prefix
 
 Code Page
 
+	874	Thai
 	1255	Hebrew
 	1256	Arabic
 	1257	Baltic
+
+
+# Note
+
+FYI, eXeScope extracts more information than dewinfont.py
+
+Take vgafix for example, eXeScope shows
+
+	Font No.1
+	  FontOrdinal: 31
+	  Version: 512
+	  Size: 4402
+	  Copyright: (c) Copyright Bitstream Inc. 1984. All rights reserved.
+	  Type: 0
+	  Points: 12
+	  VertRes: 96
+	  HorizRes: 96
+	  Ascent: 12
+	  InternalLeading: 3
+	  ExternalLeading: 0
+	  Italic: 0
+	  Underline: 0
+	  StrikeOut: 0
+	  Weight: 400
+	  CharSet: 0
+	  PixWidth: 8
+	  Pixheight: 15
+	  PitchAndFamily: 48
+	  AvgWidth: 8
+	  MaxWidth: 8
+	  FirstChar: 32
+	  LastChar: 255
+	  DefaultChar: 96
+	  BreakChar: 0
+	  WidthBytes: 225
+	  Device: 0, 
+	  Face: 4393, Fixedsys
+
+While dewinfont.py shows:
+
+	facename Fixedsys
+	copyright (c) Copyright Bitstream Inc. 1984. All rights reserved.
+	
+	height 15
+	ascent 12
+	pointsize 12
+	
+	# italic no
+	# underline no
+	# strikeout no
+	# weight 400
+	
+	# charset 0
 
 
 # Copyright
