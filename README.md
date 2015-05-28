@@ -1,3 +1,26 @@
+# Naming Convention
+
+Suffix
+
+	e	Central/Eastern European
+	g	Greek
+	r	Russian
+	t	Turkish
+
+Prefix
+
+	c	Traditional Chinese (Big5)
+	h	Korean (Hangul)
+	j	Japanese (Shift-JIS)
+	s	Simplified Chinese (GB2312)
+
+Code Page
+
+	1255	Hebrew
+	1256	Arabic
+	1257	Baltic
+
+
 # Copyright
 
 8514fix, 85f874, 85f1257, c8514fix, h8514fix, s8514fix
@@ -59,4 +82,3 @@ dewinfont
 	ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 	CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	SOFTWARE.
-
