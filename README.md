@@ -67,7 +67,7 @@ Code Page
 
 FYI, eXeScope extracts more information than dewinfont.py
 
-Take vgafix for example, eXeScope shows
+Take vgafix for example, eXeScope shows:
 
     Font No.1
       FontOrdinal: 31
