@@ -21,8 +21,6 @@
 |------------|-------------|-------------|-------------|
 | ![vgaf874] | ![vgaf1255] | ![vgaf1256] | ![vgaf1257] |
 
-Q: What happened to cp1255 and cp1256 ?
-
 [8514fix]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/8514/8514fix.png
 [vgafix]:  https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/vgafix.png
 [vgafixe]: https://raw.githubusercontent.com/libmaru/Fixedsys/master/vga/vgafixe.png
